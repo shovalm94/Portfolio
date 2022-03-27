@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Shoval Mahfuda | Full Stack Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar">
+        <span class="header__logo">
+          <i class="fa fa-code"></i>
+        </span>
+        <ul>
+          <li><a href="#about__img">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--first">Hello, my name is</span>
+          <span class="heading-primary--main">Shoval Mahfuda</span>
+          <span class="heading-primary--sub"
+            >And i'm a
+            <span style="color: orange">Full stack developer</span></span
+          >
+        </h1>
+        <a href="/resume .pdf" 
+        class="btn btn--white btn--animated">My Resume</a>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="about__main">
+          <img id="about__img" src="img/326CA876-AE30-47DE-B3D4-FB90545831FD.JPG" alt="" />
+        <div class="about__text">
+          <h2>About Me</h2>
+          <h5>FullStack Developer <span style="color: orange;">& Practical Software Engineer</span></h5>
+          <p>
+            Ever since I was a child I have always been drawn to the world of computers,
+            </br>
+            it has interested me to know how they work behind the scenes.
+          </br>
+            Slowly I entered this world,first I studied practical software engineer
+        </br>
+            And today I am a Full stack developer with an excellent system vision
+           </br>and a strong desire to succeed.
+          </p>
+        </div>
+      </section>
+      <section class="section-features" id="projects">
+          <h4>My Projects</h4>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="feature-box">
+              <i class="fa-solid fa-graduation-cap feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+               Flash-Point
+              </h3>
+              <p class="feature-box__text">
+              Learning platform that provides all the services a student needs for his studies.
+               Technologies :
+              Vue.js,Vuex,Quasar,Realtime Database,Google Cloud,Jira,Bitbucket.
+              </br>
+            </br>
+                 </br>
+              </p>
+              <div class="btn-link">
+                        <a href="https://github.com/shovalm94/flashpointdevio.git" 
+                          class="btn btn--purple btn--animated"> GitHub</a>
+                                        <a href="#" 
+                          class="btn btn--purple btn--animated"> Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="feature-box">
+              <i class="fa-solid fa-book-open-reader feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+              Divided-Tehilim
+              </h3>
+              <p class="feature-box__text">
+              The app is used for joint tehilim reading.
+              Technologies :
+              Vue.js,Vuex,Quasar,Realtime Database,Google Cloud.
+              </br>
+              </br>
+              </br>
+                   </br>
+              </p>
+             <div class="btn-link">
+                        <a  href="https://github.com/shovalm94/DividedTehilim.git" 
+                          class="btn btn--purple btn--animated"> GitHub</a>
+                                                <a href="#" 
+                          class="btn btn--purple btn--animated"> Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="feature-box">
+          
+              <i class="fa-solid  fa-clapperboard feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Movies & Subscription management
+              </h3>
+              <p class="feature-box__text">
+               The app is used to manage movies and subscriptions,display information 
+                about the movies and includes actions.</br>
+                Technologies :
+                React.js,Redux,Cloud Firestore.
+              </p>
+            
+               <div class="btn-link">
+                        <a href="https://github.com/shovalm94/Movies-Management.git" 
+                          class="btn btn--purple btn--animated"> GitHub</a>
+              </div>
+            </div>
+          </div>       
+        </div>
+      </section>
+<section class="section-contact" id="contact">
+  
+  <h1>Contact Me</h1>
+  
+  <div class="section-contact--wrapper">
+  
+  <!-- Left contact page --> 
+    
+    <form id="contact-form" class="section-contact--form" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+    
+
+    
+      <div class="direct-contact-container">
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Israel</span></i></li>
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
+             title="Send me an email">shovalm94@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+    
+          <a href="https://github.com/shovalm94"><i class="fa-brands fa-github" ></i></a>
+        
+            
+          <a href="https://www.linkedin.com/in/shoval-mahfuda/" target="_blank" class="contact-icon">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+          
+         <a href="https://www.facebook.com/profile.php?id=100000475777217" target="_blank" class="contact-icon">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+         
+        </ul>
+        <hr>
+        <div class="copyright">&copy; Created by me</div>
+      </div>
+      </div>
+    </section>  
+  </main>
+</body>
+</html>

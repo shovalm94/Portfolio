@@ -1,0 +1,56 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, 0.7),
+    rgba($color-primary-dark, 0.7)
+  );
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      padding: 3rem;
+      li {
+        display: inline-block;
+        list-style: none;
+        margin: 1rem 2rem;
+
+        a {
+          text-decoration: none;
+          color: orange;
+          font-weight: bolder;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+  }
+  &__logo {
+    font-size: 3rem;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 9px;
+    padding: 0.4rem;
+    color: $color-white;
+    margin: 2.4rem;
+  }
+  &__text-box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
